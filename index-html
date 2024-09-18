@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Namorada</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Para Você, Amor</h1>
+        <p>Eu fiz este site só para te lembrar o quanto você é especial.</p>
+        <button onclick="showMessage()">Clique para uma surpresa!</button>
+        <div id="surprise-message" class="hidden">
+            <p>Eu te amo mais a cada dia! 💖</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
